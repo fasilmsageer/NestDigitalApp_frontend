@@ -21,11 +21,21 @@ import { DeleteEmployeeComponent } from './delete-employee/delete-employee.compo
 import { EmployeeNavlinkComponent } from './employee-navlink/employee-navlink.component';
 import { SecurityNavlinkComponent } from './security-navlink/security-navlink.component';
 import { MainNavbarComponent } from './main-navbar/main-navbar.component';
+import { EmployeeLoginComponent } from './employee-login/employee-login.component';
+import { SecurityLoginComponent } from './security-login/security-login.component';
 
 const myRoute=[
   {
     path:"",
     component:AdminLoginComponent
+  },
+  {
+    path:"employeeLogin",
+    component:EmployeeLoginComponent
+  },
+  {
+    path:"securityLogin",
+    component:SecurityLoginComponent
   },
   {
     path:"leavemanagement",
@@ -82,7 +92,9 @@ const myRoute=[
     DeleteEmployeeComponent,
     EmployeeNavlinkComponent,
     SecurityNavlinkComponent,
-    MainNavbarComponent
+    MainNavbarComponent,
+    EmployeeLoginComponent,
+    SecurityLoginComponent
   ],
   imports: [
     BrowserModule,
