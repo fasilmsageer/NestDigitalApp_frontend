@@ -11,6 +11,10 @@ export class ApiService {
   {
     return this.http.get("http://localhost:8080/viewemployee")
   }
+  viewSecurity=()=>
+  {
+    return this.http.get("http://localhost:8080/viewsecurity")
+  }
 
  
 }
