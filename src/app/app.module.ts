@@ -20,6 +20,7 @@ import { DeleteSecurityComponent } from './delete-security/delete-security.compo
 import { DeleteEmployeeComponent } from './delete-employee/delete-employee.component';
 import { EmployeeNavlinkComponent } from './employee-navlink/employee-navlink.component';
 import { SecurityNavlinkComponent } from './security-navlink/security-navlink.component';
+import { MainNavbarComponent } from './main-navbar/main-navbar.component';
 
 const myRoute=[
   {
@@ -80,7 +81,8 @@ const myRoute=[
     DeleteSecurityComponent,
     DeleteEmployeeComponent,
     EmployeeNavlinkComponent,
-    SecurityNavlinkComponent
+    SecurityNavlinkComponent,
+    MainNavbarComponent
   ],
   imports: [
     BrowserModule,
