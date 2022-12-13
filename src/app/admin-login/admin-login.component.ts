@@ -2,11 +2,13 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-adminlogin',
-  templateUrl: './adminlogin.component.html',
-  styleUrls: ['./adminlogin.component.css']
+  selector: 'app-admin-login',
+  templateUrl: './admin-login.component.html',
+  styleUrls: ['./admin-login.component.css']
 })
-export class AdminloginComponent {
+export class AdminLoginComponent {
+
+  
 
   constructor(private route:Router){}
 
@@ -21,4 +23,5 @@ export class AdminloginComponent {
       this.route.navigate(["/"])
     }
   }
+
 }
