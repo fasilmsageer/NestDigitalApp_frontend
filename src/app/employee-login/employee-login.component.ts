@@ -15,7 +15,9 @@ export class EmployeeLoginComponent {
 
   readValue=()=>
   {
-    if (this.empusername=="" && this.emppassword==)
+    if (this.empusername=="" && this.emppassword==""){
+      
+    }
   }
 
 }
